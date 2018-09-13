@@ -15,4 +15,7 @@ def take_a_number(array, customer)
   array << customer
   puts "Welcome, #{customer}. You are number #{array.index(customer)+1} in line."
 end
-  
+
+def now_serving(array)
+  if array.size == 0
+    
