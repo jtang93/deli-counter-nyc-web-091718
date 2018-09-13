@@ -8,4 +8,5 @@ def line(array)
       line << "#{index + 1}. #{item}"
     end
     "The line is currently: #{line}."
+  end
 end
