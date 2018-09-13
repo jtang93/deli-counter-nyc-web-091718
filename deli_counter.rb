@@ -5,8 +5,8 @@ def line(array)
   else
     line = []
     array.each_with_index do |item, index|
-      line << " #{index + 1}. #{item} "
+      line << " #{index + 1}. #{item}"
     end
-    puts "The line is currently: #{line.join."
+    puts "The line is currently: #{line.join(" ")"
   end
 end
