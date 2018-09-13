@@ -18,4 +18,6 @@ end
 
 def now_serving(array)
   if array.size == 0
-    
+    puts "The line is empty."
+  else
+    serving = array.
